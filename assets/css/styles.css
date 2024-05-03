@@ -11,6 +11,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text-white{
+    color:#fff !important;
+}
+
 #main {
 
 }
@@ -110,34 +114,132 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* tỉ lệ theo chiều ngang của chính nó */
-    background: url('/w3_band/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/slider2.jpg') top center / cover no-repeat;
 }
 
-.text-content {
+#slider .text-content {
     position: absolute;
     bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: white;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+
 }
 
-.text-heading {
+#slider .text-heading {
     font-weight: 500;
     font-size: 24px;
+
 }
 
-.text-description {
+#slider .text-description {
     font-size: 15px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 
 
 #content {
-    height: 500px;
+
 }
 
+
+
+#content .content-section{
+    width: 800px;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    margin: 10px 0;
+    letter-spacing: 3.5px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content .section-sub-heading{
+    margin: 15px 0;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#content .members-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+
+#content .member-item{
+    display: inline-block;
+}
+
+#content .member-name{
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+#content .member-img{
+    width: 154px;
+    height: 154px;
+    border-radius: 15px;
+}
+
+/*Tour section */
+.tour-section{
+    background-color: #000;
+}
+
+.tickets-list{
+    margin: 40px 0;
+    background-color: #fff;
+    color: rgba(0,0,0,0.5);
+    list-style-type: none;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding:11px;
+    color: #757575;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out{
+    background: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 3px 6px;
+}
+
+.tickets-list .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color:#fff;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+
+/*Footer section */
 #footer {
 
 }
