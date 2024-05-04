@@ -78,7 +78,7 @@ html {
 
 #nav li a{
     text-decoration: none;
-    line-height: 46px; /* chiều cao của dòng chữ và chữ luôn nằm giữa chiều cao của chính nó */
+    line-height: 46px; /* chiều cao của dòng chữ, chữ luôn nằm giữa chiều cao của chính nó */
     padding: 0 24px;
     display: inline-block;  
 }
@@ -207,7 +207,7 @@ html {
 }
 
 .tickets-list{
-    margin: 40px 0;
+    margin-top: 40px;
     background-color: #fff;
     color: rgba(0,0,0,0.5);
     list-style-type: none;
@@ -237,6 +237,72 @@ html {
     text-align:center;
     line-height: 24px;
     margin-top: -3px;
+}
+
+.places-list{
+    margin: 32px 0 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-item{
+    width: 246px;
+}
+
+ .place-img{
+    width: 100%;
+    height: 184px;
+    background-color: #fff;
+    display:block;
+}
+
+ .place-img:hover{
+    opacity: 0.6;
+}
+
+.places-list .place-body{
+    width: 100%;
+    color:#000;
+    padding: 15px 16px;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+/*Place body config */
+.place-heading{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.place-time{
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc{
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.place-buy-btn{
+    padding: 8px 16px;
+    margin-top:15px;
+
+    display:inline-block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+
+.place-buy-btn:hover{
+    color:#000;
+    background-color: #ccc;
+}
+
+
+
+.places-list .place-body{
+
 }
 
 /*Footer section */
