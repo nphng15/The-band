@@ -169,7 +169,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* tỉ lệ theo chiều ngang của chính nó */
-    background: url('./The-band/assets/img/slider/slider2.jpg') top center / cover no-repeat;
+    background: url('../assets/img/slider/slider2.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
