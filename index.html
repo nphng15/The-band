@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROCK CAT</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
 <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
 </head>
@@ -52,7 +52,7 @@
                 <h2 class="section-heading">Meow band</h2>
                 <p class="section-sub-heading">We love meow</p>
                 <p class="about-text">Mèo là những nghệ sĩ tài hoa, với chất giọng độc đáo và tài năng âm nhạc bẩm sinh. Ngay từ khi mới lọt lòng, những chú mèo con đã khám phá thế giới âm thanh xung quanh bằng đôi tai nhỏ xíu của mình. Chúng tò mò lắng nghe từng tiếng ve kêu, tiếng gió thoảng qua khe cửa và tiếng bước chân của con người trong nhà.</p>
-                <div class="members-list">
+                <div class="row members-list">
                     <div class="member-item">
                         <p class="member-name">Meowzart</p>
                         <img src="/assets/img/band/member2.png" alt="Name" class="member-img">
@@ -84,14 +84,14 @@
                     </ul>
 
                     <!--Places-->
-                    <div class="places-list">
+                    <div class="row places-list">
                         <div class="place-item">
                             <img src="/assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2024</p>
                                 <p class="place-desc">Their meowdious tunes purrmeate the New York nights.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -101,7 +101,7 @@
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2024</p>
                                 <p class="place-desc">Their mellifluous mewsic enchants the Parisian streets, leaving pawprints on every heart.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
 
@@ -111,7 +111,7 @@
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-desc">Feline serenades serenade San Francisco's fog-kissed hills with unfurgettable catnip grooves.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -119,11 +119,39 @@
                 </div>
             </div>
 
-            <!--Contact-->
+            <!--Begin: Contact Section-->
             <div class="content-section">
                 <h2 class="section-heading">PURR-MAILS</h2>
                 <p class="section-sub-heading">Feline fan? Leave us a meow-ssage!</p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Meow Station, VN</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: meowstation@gmail.com</p>  
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input required type="text" name="" id="" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col col-half">
+                                    <input required type="email" name="" id="" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row mt-8    ">
+                                <div class="col col-full">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Message">
+                                </div>
+                            </div>
+                            <input required class="btn mt-16 pull-right" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+
             </div>
+            <!--End: Contact Section-->
+            <img src="" alt="" class="map-section">
         </div>
 
         <div id="footer">

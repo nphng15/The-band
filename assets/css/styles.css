@@ -11,10 +11,65 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Common */
 .text-white{
     color:#fff !important;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left:8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+}
+
+.col-full{
+    width:100%;
+}
+
+.mt-8{
+    margin-top:8px !important;
+}
+
+.mt-16{
+    margin-top:16px !important;
+}
+
+.pull-right{
+    float: right;
+}
+
+.btn{
+    padding: 8px 16px;
+    margin-top:15px;
+    display:inline-block;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color:#000;
+    background-color: #ccc;
+}
+
+/* Main */
 #main {
 
 }
@@ -150,7 +205,7 @@ html {
 
 #content .content-section{
     width: 800px;
-    padding: 64px 16px;
+    padding: 64px 16px 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -240,9 +295,7 @@ html {
 }
 
 .places-list{
-    margin: 32px 0 18px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 32px
 }
 
 .place-item{
@@ -282,21 +335,6 @@ html {
 .place-desc{
     margin-top: 15px;
     line-height: 1.4;
-}
-
-.place-buy-btn{
-    padding: 8px 16px;
-    margin-top:15px;
-
-    display:inline-block;
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-}
-
-.place-buy-btn:hover{
-    color:#000;
-    background-color: #ccc;
 }
 
 .modal{
@@ -407,6 +445,28 @@ html {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Contact form */
+.contact-content{
+    margin-top: 48px;
+}
+
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"]{
+    width:30px;
+    display: inline-block;
+}
+
+.form-control{
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
 }
 
 
