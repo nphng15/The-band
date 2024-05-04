@@ -169,7 +169,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /* tỉ lệ theo chiều ngang của chính nó */
-    background-image: url("./img/slider/slider2.jpg");
+    background-image: url("../img/slider/slider2.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
